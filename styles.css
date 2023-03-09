@@ -59,6 +59,11 @@ hr {
     height: 100px;
 }
 
+.nav-item {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.75rem;
+}
+
 /* Home Section */
 
 #home {
