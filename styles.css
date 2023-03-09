@@ -1,3 +1,35 @@
+/* Global */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 6.25rem;
+    font-weight: bold;
+    margin-bottom: -18px;
+}
+
+p {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.75rem;
+    margin-bottom: 0;
+}
+
+hr {
+    border: 1.5px solid black;
+}
+
+.container {
+    padding-inline: 0;
+}
+
+.col-lg {
+    padding-inline: 0;
+}
+
 .akra {
     font-family: 'Amatic SC', cursive;
     font-size: 2.75rem;
@@ -9,6 +41,101 @@
     font-size: 6rem;
 }
 
-.navbar {
-    background-color: white;
+/* Navbar Section */
+
+.container-fluid {
+    max-width: 1557px;
+}
+
+/* Home Section */
+
+#home {
+    margin-top: 30px;
+}
+
+.eyes {
+    border-radius: 0 60px 0 60px;
+}
+
+.eyes-section {
+    display: flex;
+    align-items: flex-end;
+}
+
+.am {
+    font-size: 44px;
+    font-weight: 200;
+}
+
+.webdev {
+    font-size: 6.25rem;
+    font-weight: bold;
+}
+
+.nose {
+    border-radius: 0 0 50px 50px;
+}
+
+.nose-section {
+    display: flex;
+    align-items: flex-end;
+    padding-inline: 0;
+}
+
+.nose-img-section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nose-text-section {
+    margin-bottom: -30px;
+}
+
+.word-of-section {
+    padding-left: 27%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.75rem;
+    font-weight: bold;
+}
+
+.mouth-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.mouth-text-section1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.75rem;
+    line-height: 2.8rem;
+    width: 5.6875rem;
+    padding-inline: 0;
+    margin-bottom: 0;
+}
+
+.mouth {
+    border-radius: 60px 0 60px 0;
+    padding-left: 12px;
+}
+
+.mouth-text-section2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.75rem;
+    line-height: 2.8rem;
+    padding-inline: 0;
+    margin-bottom: 0;
+}
+
+.mouth-text-section3 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 18.75rem;
+    line-height: 2.8rem;
+    padding-inline: 0;
+    padding-bottom: 30px;
+}
+
+.number {
+    font-size: 7.5rem;
+    margin-bottom: 0;
 }
