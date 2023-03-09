@@ -9,7 +9,7 @@ h1 {
     font-family: 'Amatic SC', cursive;
     font-size: 6.25rem;
     font-weight: bold;
-    margin-bottom: -18px;
+    margin-bottom: -10px;
 }
 
 p {
@@ -20,6 +20,7 @@ p {
 
 hr {
     border: 1.5px solid black;
+    margin-top: 0;
 }
 
 .container {
@@ -34,27 +35,42 @@ hr {
     font-family: 'Amatic SC', cursive;
     font-size: 2.75rem;
     font-weight: bold;
+    letter-spacing: 0.1rem;
 }
 
 .dev {
     font-family: 'Modak', cursive;
     font-size: 6rem;
+    padding-left: 5px;
 }
 
 /* Navbar Section */
 
+.navbar {
+    height: 100px;
+}
+
+.navbar-brand {
+    height: 100px;
+}
+
 .container-fluid {
     max-width: 1557px;
+    height: 100px;
 }
 
 /* Home Section */
 
 #home {
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-left: 272px;
+    margin-right: 277px;
 }
 
 .eyes {
     border-radius: 0 60px 0 60px;
+    width: 95%;
+    height: 95%;
 }
 
 .eyes-section {
@@ -74,6 +90,8 @@ hr {
 
 .nose {
     border-radius: 0 0 50px 50px;
+    width: 95%;
+    height: 95%;
 }
 
 .nose-section {
@@ -88,7 +106,7 @@ hr {
 }
 
 .nose-text-section {
-    margin-bottom: -30px;
+    margin-bottom: -23px;
 }
 
 .word-of-section {
@@ -115,6 +133,8 @@ hr {
 
 .mouth {
     border-radius: 60px 0 60px 0;
+    width: 95%;
+    height: 95%;
     padding-left: 12px;
 }
 
