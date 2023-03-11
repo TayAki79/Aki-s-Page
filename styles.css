@@ -32,7 +32,6 @@ hr {
 }
 
 /* Navbar Section */
-
 li {
     list-style: none;
 }
@@ -55,11 +54,12 @@ a {
 }
 
 .hamburger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
+    width: 40px;
+    transform: translateY(13px) rotate(45deg);
 }
 
 .hamburger.active .bar:nth-child(2) {
-    transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(0px) translateX(-26px) rotate(-45deg);
 }
 
 .bar {
@@ -81,10 +81,18 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: -100%;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    transition: 1s ease-in-out;
 }
 
-.nav-item {
-    margin-left: 5rem;
+.nav-menu.active {
+    top: 100px;
+    left: 0;
 }
 
 .nav-link{
@@ -95,6 +103,10 @@ a {
 
 .nav-link:hover{
     color: #9b9aa0;
+}
+
+.nav-item {
+    margin: 10px;
 }
 
 .akra {
@@ -112,26 +124,14 @@ a {
     color: black;
 }
 
-@media only screen and (max-width: 768px) {
-    .nav-menu {
-        position: fixed;
-        left: -100%;
-        top: 5rem;
-        flex-direction: column;
-        background-color: #fff;
-        width: 100%;
-        border-radius: 10px;
-        text-align: center;
-        transition: 0.3s;
-        box-shadow:
-            0 10px 27px rgba(0, 0, 0, 0.05);
-    }
+#home.active {
+    margin-top: 344px;
+    transition: 0.8s ease-in-out;
+}
 
+@media only screen and (max-width: 768px) {
     .navbar {
         padding: 0 1.5rem;
-    }
-    .nav-menu.active {
-        left: 0;
     }
 
     .nav-item {
@@ -151,9 +151,10 @@ a {
 /* Home Section */
 
 #home {
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 272px;
     margin-right: 277px;
+    transition: 0.8s ease-in-out;
 }
 
 .eyes {
