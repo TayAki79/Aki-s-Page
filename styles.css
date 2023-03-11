@@ -31,37 +31,121 @@ hr {
     padding-inline: 0;
 }
 
+/* Navbar Section */
+
+li {
+    list-style: none;
+}
+
+a {
+    font-family: 'Amatic SC', cursive;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 11.25rem;
+}
+
+.hamburger {
+    display: block;
+    cursor: pointer;
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(2) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.bar {
+    display: block;
+    width: 80px;
+    height: 3px;
+    margin-top: 10px;
+    margin-left: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+.bar:last-of-type {
+    width: 40px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 5rem;
+}
+
+.nav-link{
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+.nav-link:hover{
+    color: #9b9aa0;
+}
+
 .akra {
     font-family: 'Amatic SC', cursive;
     font-size: 2.75rem;
     font-weight: bold;
     letter-spacing: 0.1rem;
+    color: black;
 }
 
 .dev {
     font-family: 'Modak', cursive;
     font-size: 6rem;
     padding-left: 5px;
+    color: black;
 }
 
-/* Navbar Section */
+@media only screen and (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
 
-.navbar {
-    height: 100px;
-}
+    .navbar {
+        padding: 0 1.5rem;
+    }
+    .nav-menu.active {
+        left: 0;
+    }
 
-.navbar-brand {
-    height: 100px;
-}
+    .nav-item {
+        margin: 2.5rem 0;
+    }
 
-.container-fluid {
-    max-width: 1557px;
-    height: 100px;
-}
+    .akra {
+        font-size: 2rem;
+    }
 
-.nav-item {
-    font-family: 'Amatic SC', cursive;
-    font-size: 2.75rem;
+    .dev {
+        font-size: 4.36rem;
+    }
+
 }
 
 /* Home Section */
