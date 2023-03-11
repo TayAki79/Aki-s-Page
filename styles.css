@@ -31,6 +31,11 @@ hr {
     padding-inline: 0;
 }
 
+img {
+    width: 507px;
+    height: 177px;
+}
+
 /* Navbar Section */
 li {
     list-style: none;
