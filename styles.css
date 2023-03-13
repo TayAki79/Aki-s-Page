@@ -20,6 +20,7 @@ p {
 
 hr {
     border: 1.5px solid black;
+    margin: 8px 0;
 }
 
 .container {
@@ -251,9 +252,9 @@ a {
 
 /* media query Home Section */
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     h1 {
-        font-size: 4.5rem;
+        font-size: 3.8rem;
         margin-bottom: -15px;
     }
     
@@ -267,37 +268,41 @@ a {
     }
 
     img {
-        width: 390px;
-        height: 130px;
+        width: 310px;
+        height: 100px;
     }
 
     .webdev {
-        font-size: 4.2rem;
+        font-size: 3.8rem;
     }
 
     .nose-text-section {
-        margin-bottom: -25px;
-        font-size: 2rem;
+        margin-bottom: -23px;
+        font-size: 1.5rem;
     }
 
     .am {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .mouth-text-section1 {
-        font-size: 2rem;
-        line-height: 1.7rem;
+        font-size: 1.5rem;
+        line-height: 1.4rem;
+    }
+
+    .word-of-section {
+        margin-bottom: -20px;
     }
 
     .mouth-text-section2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .mouth-text-section3 {
-        font-size: 13rem;
+        font-size: 10rem;
     }
 
-    hr {
-        margin-top: 0;
+    .number {
+        font-size: 3.8rem;
     }
 }
