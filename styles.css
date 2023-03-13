@@ -7,9 +7,9 @@
 
 h1 {
     font-family: 'Amatic SC', cursive;
-    font-size: 6.25rem;
+    font-size: 8rem;
     font-weight: bold;
-    margin-bottom: -10px;
+    margin-bottom: -25px;
 }
 
 p {
@@ -20,7 +20,6 @@ p {
 
 hr {
     border: 1.5px solid black;
-    margin-top: 0;
 }
 
 .container {
@@ -32,8 +31,8 @@ hr {
 }
 
 img {
-    width: 507px;
-    height: 177px;
+    width: 650px;
+    height: 200px;
 }
 
 /* Navbar Section */
@@ -157,15 +156,13 @@ a {
 
 #home {
     margin-top: 20px;
-    margin-left: 272px;
-    margin-right: 277px;
+    margin-left: 270px;
+    margin-right: 270px;
     transition: 0.8s ease-in-out;
 }
 
 .eyes {
     border-radius: 0 60px 0 60px;
-    width: 95%;
-    height: 95%;
 }
 
 .eyes-section {
@@ -179,14 +176,12 @@ a {
 }
 
 .webdev {
-    font-size: 6.25rem;
+    font-size: 8rem;
     font-weight: bold;
 }
 
 .nose {
     border-radius: 0 0 50px 50px;
-    width: 95%;
-    height: 95%;
 }
 
 .nose-section {
@@ -201,7 +196,7 @@ a {
 }
 
 .nose-text-section {
-    margin-bottom: -23px;
+    margin-bottom: -45px;
 }
 
 .word-of-section {
@@ -228,8 +223,6 @@ a {
 
 .mouth {
     border-radius: 60px 0 60px 0;
-    width: 95%;
-    height: 95%;
     padding-left: 12px;
 }
 
@@ -253,4 +246,22 @@ a {
 .number {
     font-size: 7.5rem;
     margin-bottom: 0;
+}
+
+/* media query Home Section */
+
+@media screen and (max-width: 1576px) {
+    .navbar {
+        padding: 0 5.625rem;
+    }
+
+    #home {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    img {
+        width: 89px;
+        height: 31px;
+    }
 }
