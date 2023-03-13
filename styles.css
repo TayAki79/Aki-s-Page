@@ -252,6 +252,11 @@ a {
 /* media query Home Section */
 
 @media screen and (max-width: 1576px) {
+    h1 {
+        font-size: 4.5rem;
+        margin-bottom: -15px;
+    }
+    
     .navbar {
         padding: 0 5.625rem;
     }
@@ -262,7 +267,37 @@ a {
     }
 
     img {
-        width: 89px;
-        height: 31px;
+        width: 390px;
+        height: 130px;
+    }
+
+    .webdev {
+        font-size: 4.2rem;
+    }
+
+    .nose-text-section {
+        margin-bottom: -25px;
+        font-size: 2rem;
+    }
+
+    .am {
+        font-size: 2rem;
+    }
+
+    .mouth-text-section1 {
+        font-size: 2rem;
+        line-height: 1.7rem;
+    }
+
+    .mouth-text-section2 {
+        font-size: 2rem;
+    }
+
+    .mouth-text-section3 {
+        font-size: 13rem;
+    }
+
+    hr {
+        margin-top: 0;
     }
 }
