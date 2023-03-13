@@ -251,7 +251,7 @@ a {
 
 /* media query Home Section */
 
-@media screen and (max-width: 1576px) {
+@media screen and (max-width: 1199px) {
     h1 {
         font-size: 4.5rem;
         margin-bottom: -15px;
